@@ -16,7 +16,7 @@ int main() {
     if (bilangandetik<86400) {
         cout << bilangandetik << " detik " << "= " << jam << " Jam, " << menit << " Menit, " << detik << " Detik.";
     } else {
-        cout << bilangandetik << " detik " << "= " << hari << " hari " << jam << " Jam, " << menit << " Menit, " << detik << " Detik.";
+        cout << bilangandetik << " detik " << "= " << hari << " hari, " << jam << " Jam, " << menit << " Menit, " << detik << " Detik.";
     }
 
     return 0;
